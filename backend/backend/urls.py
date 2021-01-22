@@ -22,4 +22,5 @@ urlpatterns = [
     # added routes
     path('api/v1/reviews/', include('reviews.urls')),
     path('anything-can-be-here', include('rest_framework.urls')),
+    path('api/v1/dj-rest-auth/', include('dj_rest_auth.urls')),
 ]
